@@ -44,7 +44,9 @@ List<String> nomes;
 	public String StartCalc(int num1 ,int num2 , int opcao) {
 		// TODO Auto-generated method stub
 		CalcOO fraCalc = new CalcOO();
-		return fraCalc.StartCalc(num1, num2, opcao);
+		String resultado = fraCalc.StartCalc(num1, num2, opcao);
+		System.out.println("chamada remota" + resultado);
+		return resultado;
 	}
 
 }
